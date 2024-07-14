@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/Carol_logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="js/app.js"></script>
+    <title>Ana Carolina - Web Developer</title>
+    <meta name="description"
+        content="Sou Ana Carolina, desenvolvedor web front-end Sou de São Paulo-BRASIL. Gosto de construir sites bonitos e responsivos com wordpress. Explore meu portfólio e entre em contato comigo para colaboração." />
+    <meta name="keywords"
+        content="Ana Carolina, desenvolvedora web, desenvolvedora front-end, Brasil, portfólio, colaboração" />
+</head>
+
+<body>
+    <div id="preloader">
+        <svg id="animatedLogo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+                <g id="letter" transform="translate(34, 33)" fill="#64FFDA" style="opacity: 0"
+                    font-family="Inter, sans-serif" font-size="50" font-weight="700" letter-spacing="4.16666603">
+                    <text>
+                        <tspan x="1.14" y="32">C</tspan>
+                    </text>
+                </g>
+                <path stroke="#64FFDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d=" M 50, 5
+                            L 10, 30
+                            L 10, 70
+                            L 50, 92
+                            L 95, 70
+                            L 95, 30 z" />
+            </g>
+        </svg>
+    </div>
+    <div class="scroll scroll-left">
+        <span>scroll down</span>
+        <i class="fa-solid fa-arrow-down"></i>
+    </div>
+    <div class="scroll scroll-right">
+        <span>scroll down</span>
+        <i class="fa-solid fa-arrow-down"></i>
+    </div>
+    <ul class="media-links">
+        <li>
+            <a href="https://github.com/carolinavelosoc" target="_blank" rel="noopener" aria-label="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com/acarolinaveloso" target="_blank" rel="noopener" aria-label="instagram"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/acarolinavelosoc/" target="_blank" rel="noopener"
+                aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </li>
+    </ul>
+    <a class="gmail" href="mailto:acarolinavelosoc@gmail.com">acarolinavelosoc@gmail.com</a>
+    <a href="#" class="go-top" aria-label="scroll back to top"><i class="fa-brands fa-space-awesome"></i></a>
+
+    <nav>
+        <a href="#" class="nav__logo">
+            <img src="images/Carol_logo.png" />
+        </a>
+        <ul class="nav__list">
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#work">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li>
+                <a href="Docs/Carol-resumo.pdf" target="_blank" class="resume">Download CV</a>
+            </li>
+        </ul>
+        <div class="nav__menu">
+            <div class="hamburger"></div>
+        </div>
+    </nav>
+    <main class="container">
+        <header>
+            <div class="header__avatar">
+                <img src="./images/avatar.png" alt="Carol avatar" class="header__avatar-img" />
+
+            </div>
+            <div class="header__text-content">
+                <p class="header__hi">Hello World, my name is...</p>
+                <h1>
+                    <span class="header__name">Ana Carolina,</span><br /><span class="header__bio">Web Developer</span>
+                </h1>
+                <p class="header__intro">
+                    Sou uma desenvolvedora front-end. Gosto de criar sites bonitos e responsivos com Wordpress sendo
+                    eficientes e elegantes.
+                </p>
+                <div class="header__links">
+                    <a href="Docs/Carol-resumo.pdf" target="_blank">Resumo</a>
+                    <a href="#work">Projetos</a>
+                </div>
+            </div>
+        </header>
+        <div class="about" id="about">
+            <section class="about__myself translateUp">
+                <h2>Quem eu sou?</h2>
+                <p>
+                    Olá, meu nome é Ana Carolina! Sou desenvolvedora front-end com uma sede insaciável de
+                    criar coisas incríveis online.<br /><br />Assim que descobri o desenvolvimento web, eu sabia que
+                    tinha encontrado minha paixão!
+                    Estudando a um pouco mais de 5 anos, aprendi muito e com o tempo construí algumas coisas
+                    incríveis!<br /><br />Mas o que realmente me entusiasma, é a oportunidade de colaborar com pessoas
+                    positivas
+                    e afins para criar algo verdadeiramente alucinante. Então, você está pronto para unir forças e dar
+                    vida às nossas
+                    ideias mais malucas?
+                    <a href="#contact">Então vamos!</a>
+                </p>
+            </section>
+            <section class="about__skill translateUp">
+                <h2>Tecnologias e frameworks que aprendi</h2>
+                <ul class="about__skill-list">
+                    <li><i class="fa-brands fa-html5"></i></li>
+                    <li><i class="fa-brands fa-css3-alt"></i></li>
+                    <li><i class="fa-brands fa-js"></i></li>
+                    <li><i class="fa-brands fa-elementor"></i></li>
+                </ul>
+            </section>
+        </div>
+        <div class="work" id="work">
+            <h2 class="translateUp">Alguns dos meus trabalhos mais recentes</h2>
+            <!-- Projeto 1 -->
+            <div class="project-section">
+                <div class="project translateUp">
+                    <a href="https://directcenterbrasil.com.br/" target="_blank" rel="noopener" class="project__image">
+                        <img src="./images/direct.png" alt="Pinacoteca" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Website</span>
+                        <a href="https://directcenterbrasil.com.br/" target="_blank" rel="noopener"
+                            class="project__text-name">Direct Center Brasil</a>
+                        <p class="project__text-info">
+                            Pinacoteca de Santos é um website feito com Elementor e a busca do acervo com JQuery. Este
+                            site é totalmente responsivo e compatível
+                            com vários navegadores. Ele também tem algumas animações legais em scroll, controle
+                            deslizante de carrossel, acordeão, etc.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>Wordpress</span>
+                            <span>CSS</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://directcenterbrasil.com.br/ " target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="project translateUp">
+                    <a href="https://kefitrade.com.br/" target="_blank" rel="noopener" class="project__image">
+                        <img src="./images/kefitrade.png" alt="Pinacoteca" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Website</span>
+                        <a href="https://kefitrade.com.br/" target="_blank" rel="noopener"
+                            class="project__text-name">Kefi Trade</a>
+                        <p class="project__text-info">
+                            Pinacoteca de Santos é um website feito com Elementor e a busca do acervo com JQuery. Este
+                            site é totalmente responsivo e compatível
+                            com vários navegadores. Ele também tem algumas animações legais em scroll, controle
+                            deslizante de carrossel, acordeão, etc.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>Wordpress</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://kefitrade.com.br/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="project translateUp">
+                    <a href="https://www.engeplus.com/" target="_blank" rel="noopener" class="project__image">
+                        <img src="./images/engeplus.png" alt="Pinacoteca" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Website</span>
+                        <a href="https://www.engeplus.com/" target="_blank" rel="noopener"
+                            class="project__text-name">Engeplus Construtora</a>
+                        <p class="project__text-info">
+                            Pinacoteca de Santos é um website feito com Elementor e a busca do acervo com JQuery. Este
+                            site é totalmente responsivo e compatível
+                            com vários navegadores. Ele também tem algumas animações legais em scroll, controle
+                            deslizante de carrossel, acordeão, etc.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>Wordpress</span>
+                            <span>Html</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://www.engeplus.com/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Projeto 4 -->
+                <div class="project translateUp">
+                    <a href="https://pinacotecadesantos.org.br/" target="_blank" rel="noopener" class="project__image">
+                        <img src="./images/Pinacoteca.png" alt="Pinacoteca" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Website</span>
+                        <a href="https://pinacotecadesantos.org.br/" target="_blank" rel="noopener"
+                            class="project__text-name">Pinacoteca de Santos</a>
+                        <p class="project__text-info">
+                            Pinacoteca de Santos é um website feito com Elementor e a busca do acervo com JQuery. Este
+                            site é totalmente responsivo e compatível
+                            com vários navegadores. Ele também tem algumas animações legais em scroll, controle
+                            deslizante de carrossel, acordeão, etc.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>Html</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://pinacotecadesantos.org.br/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Projeto 5 -->
+                <div class="project translateUp">
+                    <a href="https://momentto.com.br/" target="_blank" rel="noopener" class="project__image">
+                        <img src="./images/Momentto.png" alt="Momentto" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Website</span>
+                        <a href="https://momentto.com.br/" target="_blank" rel="noopener"
+                            class="project__text-name">Momentto</a>
+                        <p class="project__text-info">
+                            Momentto é um website para lançamento de empreendimento com foco em captação e informação.
+                            Foi inteiro desenvolvimento com Elementor e CSS. Além de toda a configuração de SEO para
+                            implementação nos mecanismos de busca.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>Html</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://momentto.com.br/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="project translateUp">
+                    <a href="https://engeplus.com/bali/" target="_blank" rel="noopener" class="project__image">
+                        <img src="./images/bali.png" alt="Bali" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Landing Page</span>
+                        <a href="https://engeplus.com/bali/" target="_blank" rel="noopener"
+                            class="project__text-name">Residencial Bali</a>
+                        <p class="project__text-info">
+                            Residencial Bali é uma landing page de ativação para emprendimento da Contrutora Engeplus.
+                            Este site é totalmente responsivo e compatível
+                            com vários navegadores.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>CSS</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://engeplus.com/bali/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+                <!-- Projeto 4 -->
+                <div class="project translateUp">
+                    <a href="https://construtoramiramar.com.br/navegantes/" target="_blank" rel="noopener"
+                        class="project__image">
+                        <img src="./images/Navegantes.png" alt="Navegantes" />
+                    </a>
+                    <section class="project__text">
+                        <span class="project__text-type">Landing Page</span>
+                        <a href="https://construtoramiramar.com.br/navegantes/" target="_blank" rel="noopener"
+                            class="project__text-name">Construtora Miramar</a>
+                        <p class="project__text-info">
+                            Navegantes, Ilhas Resort e Carina Home são landing pages desenvolvidas com intuito de
+                            realizar o lançamento dos empreendimentos na região. As Landing Pages foram inteiras
+                            desenvolvidas com HTML, CSS e Javascript.
+                        </p>
+                        <div class="project__text-lang">
+                            <span>Html</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project__text-links">
+                            <a href="https://construtoramiramar.com.br/navegantes/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                            <a href="https://construtoramiramar.com.br/ilhasresort/" target="_blank" rel="noopener"
+                                aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                            <a href="https://construtoramiramar.com.br/residencialcarinahome/" target="_blank"
+                                rel="noopener" aria-label="website link"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="contact translateUp" id="contact">
+            <h2>Entrar em contato</h2>
+            <p>
+                Tem uma proposta ou quer dizer olá? Envie um e-mail, clicando no botão, logo abaixo.<br>
+                Responderei o mais rápido que puder!
+            </p>
+            <a href="mailto:acarolinavelosoc@gmail.com" aria-label="send email"><i
+                    class="fa-solid fa-paper-plane"></i></a>
+        </section>
+        <ul class="footer__links translateUp">
+            <li>
+                <a href="https://github.com/carolinavelosoc" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/acarolinaveloso" target="_blank" rel="noopener" aria-label="instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/acarolinavelosoc/" target="_blank" rel="noopener"
+                    aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+        <p class="footer__text">
+            Copyright© 2024 <a href="https://github.com/carolinavelosoc" target="_blank">Carolina Veloso</a> | All
+            rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
